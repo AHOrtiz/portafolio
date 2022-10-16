@@ -8,8 +8,10 @@ import { ProyectsComponent } from './components/proyects/proyects.component';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { MenuComponent } from './components/menu/menu.component';
-import { NotFoundComponent } from './components/not-found/not-found.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { AppRoutingModule } from './app-routing.module';
+import { HomeComponent } from './pages/home/home.component';
+import { LayoutComponent } from './components/layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { AppRoutingModule } from './app-routing.module';
     HabilidadesComponent,
     ContactoComponent,
     MenuComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    HomeComponent,
+    LayoutComponent
   ],
   imports: [
     AppRoutingModule,
